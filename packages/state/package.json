@@ -1,0 +1,13 @@
+{
+  "name": "@movi/state",
+  "version": "1.0.0",
+  "description": "", 
+  "type": "commonjs",
+  "scripts": {
+    "build": "",
+    "publish": ""
+  },
+  "author": "Ekrem Erşahin",
+  "license": "MIT"
+ 
+}

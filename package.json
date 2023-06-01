@@ -1,0 +1,30 @@
+{
+  "name": "movi",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "./dist/movi.umd.js",
+  "module": "./dist/movi.es.js",
+  "exports": {
+    ".": {
+      "import": "./dist/movi.es.js",
+      "require": "./dist/movi.umd.js"
+    }
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "rollup -c -w"
+  },
+  "author": "Ekrem Erşahin",
+  "license": "ISC",
+  "devDependencies": {
+    "path": "^0.12.7",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-dts": "^5.0.0",
+    "rollup-plugin-typescript2": "^0.34.1",
+    "sass": "^1.55.0",
+    "typescript": "^4.8.4"
+  }
+}
